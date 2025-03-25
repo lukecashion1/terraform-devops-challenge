@@ -13,10 +13,9 @@ This project provisions a secure and scalable cloud infrastructure on AWS using 
 
 ### 1. Clone the Project
 ```bash
-git clone <your-repo-url>
-cd <your-project-directory>
+git clone https://github.com/lukecashion1/terraform-devops-challenge.git
+cd terraform-devops-challenge
 ```
-> Note: If it's a local submission, simply unzip the project archive.
 
 ### 2. Generate SSH Key Pair
 Run the following command in your terminal from the root directory:
@@ -63,12 +62,6 @@ Access the web server:
 
 You should see the default Nginx (or Apache) welcome page.
 
-### 2. SSH into EC2 Instance (if needed)
-If needed (e.g., for debugging), SSH into the EC2 from within the VPC:
-```bash
-ssh -i mykey ec2-user@<ec2_private_ip>
-```
-> Note: `ec2_private_ip` will be shown in the Terraform outputs.
 
 ## 📤 Terraform Outputs
 After running `terraform apply`, you will see:
