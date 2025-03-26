@@ -60,6 +60,8 @@ alb_dns_name = <your-load-balancer>.elb.amazonaws.com
 Access the web server:
 - HTTPS: `https://<alb_dns_name>` (you may get a warning due to the self-signed certificate)
 
+> Note: If warning pops up click "Proceed anyway" or "Advanced → Proceed to app-load-balancer..."
+
 You should see the default Nginx (or Apache) welcome page.
 
 
